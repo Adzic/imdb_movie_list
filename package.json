@@ -1,0 +1,16 @@
+{
+    "name": "imdb-movie-list",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "react-scripts build",
+      "start": "react-scripts start"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "@/components/ui": "latest",
+      "recharts": "^2.9.0",
+      "lucide-react": "^0.263.1"
+    }
+  }
