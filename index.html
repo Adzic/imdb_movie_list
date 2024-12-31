@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Movie List Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My IMDb Movie Dashboard</h1>
+    </header>
+    <main>
+        <section>
+            <button id="fetchLists">Fetch All Lists</button>
+        </section>
+        <section id="movieContainer"></section>
+        <section>
+            <canvas id="genreChart" width="400" height="200"></canvas>
+            <canvas id="yearChart" width="400" height="200"></canvas>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

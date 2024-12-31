@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+button {
+    padding: 0.5rem 1rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005bb5;
+}
+#movieContainer {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.movie {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.movie h2 {
+    font-size: 1.2rem;
+}
+canvas {
+    margin: 2rem 0;
+}
